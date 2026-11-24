@@ -2,7 +2,7 @@ BioLoop
 
 AVVIO CONSIGLIATO (Windows)
 1. Estrai tutto il contenuto dello ZIP in una cartella.
-2. Installa Node.js LTS se non è già presente sul computer.
+2. Installa Node.js LTS se non è già presente sul computer. (https://nodejs.org/en/download)
 3. Fai doppio clic su “Avvia BioLoop.bat”.
 4. Il browser aprirà automaticamente http://127.0.0.1:8765.
 5. All'avvio scegli “Sì, consenti e continua” oppure “No, continua senza salvare sul disco”.
@@ -46,3 +46,11 @@ ALTRE NOTE
 * **Tutela della Privacy:** Il prototipo elabora i dati in modo effimero senza salvare immagini o metadati identificativi su database permanenti.
 
 
+
+
+PRIVACY E ACCESSO PER OSPEDALE (MODALITA' DIMOSTRATIVA)
+BioLoop include una schermata di accesso con codici medico dimostrativi. Ogni codice medico ordinario limita la banca dati, le cartelle visibili e il salvataggio fisico a un solo ospedale. Il codice maestro demo consente la visualizzazione dell'intera rete esclusivamente per mostrare il concetto di supervisione multi-struttura.
+
+I codici mostrati nell'interfaccia sono pubblici e condivisibili: NON sono credenziali di sicurezza e non devono essere utilizzati per proteggere dati sanitari reali. In un prodotto completo occorrerebbero account personali, autenticazione forte, autorizzazioni gestite lato server, cifratura, registri di audit, regole di conservazione e verifiche di conformita' al GDPR e alla normativa sanitaria. Eventuali accessi investigativi dovrebbero essere autorizzati da un titolo giuridico valido, limitati allo scopo e tracciati.
+
+Tutti i nominativi e i dati presenti nel prototipo sono sintetici. Non inserire dati sanitari reali o informazioni personali identificabili. La schermata Privacy nel sito descrive il modello concettuale e non certifica la conformita' o la sicurezza di un sistema sanitario reale.
