@@ -7,7 +7,7 @@ AVVIO CONSIGLIATO (Windows)
 4. Il browser aprirà automaticamente http://127.0.0.1:8765.
 5. All'avvio scegli “Sì, consenti e continua” oppure “No, continua senza salvare sul disco”.
 
-Video dimostrativo per la funzionalità del sito: 
+Video dimostrativo per la funzionalità del sito: https://youtu.be/2vfUWodcRE8?is=RAx12Q74ujBlIdQv
 
 
 ARCHIVIO FISICO AUTOMATICO
