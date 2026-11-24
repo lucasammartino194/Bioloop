@@ -29,5 +29,20 @@ OSPEDALI E PAZIENTI
 - L'elenco integrato è una selezione dimostrativa, non un censimento esaustivo di tutte le strutture di ricovero italiane. La fonte istituzionale per l'elenco completo e aggiornato è il Ministero della Salute: https://www.salute.gov.it/new/it/banche-dati/elenco-aziende-sanitarie-locali-e-strutture-di-ricovero/ .
 
 ALTRE NOTE
-- Le funzionalità cliniche e i risultati IA restano dimostrativi: BioLoop non è un dispositivo medico e non fornisce diagnosi reali.
 - Non cancellare né spostare la cartella “Cartelle pazienti” se si desidera mantenere i PDF salvati sul disco.
+
+- ## Avvertenze, Limiti Operativi e Considerazioni Etiche
+
+**Bioloop** è un prototipo dimostrativo sviluppato esclusivamente per scopi educativi e di ricerca. **Non è un dispositivo medico certificato** e non deve essere utilizzato in alcun caso per diagnosi cliniche, screening su pazienti reali o decisioni terapeutiche.
+
+### Limiti Noti e Modalità di Errore
+* **Dati Esclusivamente Sintetici:** Il sistema è stato testato solo su immagini simulate e phantom anatomici; le prestazioni su tessuti umani reali non sono state validate clinicamente.
+* **Sensibilità alle Condizioni di Acquisizione:** Riflessi, scarsa illuminazione, sfocatura o variazioni nella posizione della scansione possono causare falsi positivi (segnalazione di masse inesistenti) o falsi negativi (mancato rilevamento di anomalie).
+* **Incertezza nel Monitoraggio Temporale:** Il confronto tra scansioni successive si basa su allineamenti visivi semplificati e potrebbe interpretare variazioni posturali o prospettiche come cambiamenti morfologici della massa.
+* **Potenziali Bias:** I modelli utilizzati possono mostrare cali di precisione in presenza di fototipi, corporature o condizioni non adeguatamente rappresentati nei dati dimostrativi.
+
+### Principi di Utilizzo Sicuro
+* **Supervisione Umana (Human-in-the-Loop):** Ogni risultato generato dal sistema ha valore puramente indicativo e richiede sempre l'interpretazione e la verifica di un professionista sanitario qualificato.
+* **Tutela della Privacy:** Il prototipo elabora i dati in modo effimero senza salvare immagini o metadati identificativi su database permanenti.
+
+
